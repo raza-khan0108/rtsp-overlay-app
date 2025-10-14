@@ -1,0 +1,155 @@
+.overlay-manager {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  color: white;
+}
+
+.overlay-manager h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #4CAF50;
+}
+
+.overlay-form {
+  background: #2a2a2a;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.overlay-form h3 {
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: #1a1a1a;
+  color: white;
+  font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-submit, .btn-cancel {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-submit {
+  background: #4CAF50;
+  color: white;
+  flex: 1;
+}
+
+.btn-submit:hover {
+  background: #45a049;
+}
+
+.btn-cancel {
+  background: #ff9800;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background: #e68900;
+}
+
+.overlay-list {
+  margin-top: 30px;
+}
+
+.overlay-list h3 {
+  margin-bottom: 15px;
+  color: #4CAF50;
+}
+
+.overlay-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.overlay-list th,
+.overlay-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.overlay-list th {
+  background: #333;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.overlay-list tr:last-child td {
+  border-bottom: none;
+}
+
+.btn-edit, .btn-delete {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.btn-edit {
+  background: #2196F3;
+  color: white;
+}
+
+.btn-edit:hover {
+  background: #0b7dda;
+}
+
+.btn-delete {
+  background: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #da190b;
+}
