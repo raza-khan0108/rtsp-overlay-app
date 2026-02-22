@@ -248,9 +248,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 📞 Contact
 
-**Raza Khan**
-
-* Email: razawarsi828@gmail.com
-* Project Link: https://github.com/yourusername/rtsp-overlay-streaming-app
